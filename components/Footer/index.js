@@ -47,22 +47,27 @@ const Footer = () => {
             <SocialButton
               icon={<FaTwitter className='sm:mr-4' />}
               text='Send me a DM on Twitter'
+              link='https://twitter.com/jaeyholic'
             />
             <SocialButton
               icon={<FaLinkedin className='sm:mr-4' />}
               text='Check my profile on LinkedIn'
+              link='https://www.linkedin.com/in/felixyeboahjefferson/'
             />
             <SocialButton
               icon={<FaInstagram className='sm:mr-4' />}
               text='Send me a DM on Instagram'
+              link='https://www.instagram.com/jaeyholic/'
             />
             <SocialButton
               icon={<FaGithub className='sm:mr-4' />}
               text='Checkout my project on Github'
+              link='https://github.com/jaeyholic/'
             />
             <SocialButton
               icon={<FaMedium className='sm:mr-4' />}
               text='Read my blogs on Medium'
+              link='https://medium.com/@jaeyholic'
             />
           </div>
         </div>
@@ -77,7 +82,8 @@ const Footer = () => {
 
         <div className=''>
           <a
-            href='#'
+            target='_blank'
+            href='https://github.com/jaeyholic/portfolio-v3'
             className='flex items-center bg-trueGray-800 dark:bg-white px-12 py-3 w-64 text-white dark:text-trueGray-800 font-semibold focus:outline-none rounded-md focus:ring-2 focus:ring-offset-white dark:focus:ring-offset-trueGray-800 focus:ring-trueGray-800 dark:focus:ring-white focus:ring-offset-4 transition duration-200 ease-out'
           >
             <FaGithub className='sm:mr-4' />
