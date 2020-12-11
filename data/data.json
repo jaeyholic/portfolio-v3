@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": "Albert Essamuah Associates Limited (AEA)",
+      "img": "eae.jpg",
+      "name": "Albert Essamuah Associates Limited (AEA)",
+      "excerpt": "A firm of Architects practicing Built Environment Consultancy with the capacity..."
+    },
+    {
+      "id": "Ntetsia",
+      "img": "ntetsia.png",
+      "name": "Ntetsia",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora..."
+    },
+    {
+      "id": "Xparf",
+      "img": "xparf.png",
+      "name": "Xparf",
+      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora?"
+    },
+    {
+      "id": "Complete Farmer",
+      "img": "complete-farmer.jpg",
+      "name": "Complete Farmer",
+      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies"
+    },
+    {
+      "id": "Digital Farmer Dashboard",
+      "img": "dashboard.jpg",
+      "name": "Digital Farmer Dashboard",
+      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies"
+    },
+    {
+      "id": "Number 12 Film",
+      "img": "number12.jpg",
+      "name": "Number 12 Film",
+      "excerpt": "The Number 12 Film is a project built for a client to showcase their biggest projects worked on."
+    },
+    {
+      "id": "Teach For Joy",
+      "img": "teachforjoy.jpg",
+      "name": "Teach For Joy",
+      "excerpt": "It's a platform where people meet tutors who are willing to teach on their free time for free."
+    }
+  ]
+}
