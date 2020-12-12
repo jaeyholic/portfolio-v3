@@ -10,10 +10,12 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-black sm:px-32 sm:py-10 text-gray-500'>
+    <div className='sm:px-32 sm:py-10 dark:text-gray-500'>
       <div className='flex justify-between sm:py-24'>
         <div className='sm:mr-10 w-1/2'>
-          <h3 className='text-white font-black text-3xl mb-4'>About me</h3>
+          <h3 className='text-gray-800 dark:text-white font-black text-3xl mb-4'>
+            About me
+          </h3>
           <div className='leading-loose font-light text-lg'>
             <p>
               A self-taught Full-Stack Javascript Web Developer and UI/UX
@@ -41,7 +43,9 @@ const Footer = () => {
         </div>
 
         <div className='sm:ml-10 w-1/2'>
-          <h3 className='text-white font-black text-3xl mb-2'>Let's talk</h3>
+          <h3 className='text-gray-800 dark:text-white font-black text-3xl mb-2'>
+            Let's talk
+          </h3>
           <h3 className='font-thin text-2xl mb-4'>hello@jeffson.dev</h3>
           <div className='grid gap-4 mt-8'>
             <SocialButton
@@ -73,10 +77,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='border-t border-gray-900 my-10'></div>
+      <div className='border-t  border-gray-200 dark:border-gray-900 my-10'></div>
 
       <div className='flex justify-between items-center'>
-        <p className='uppercase text-gray-600'>
+        <p className='uppercase text-gray-500 dark:text-gray-600'>
           Felix Yeboah - Jefferson © {new Date().getFullYear()}
         </p>
 

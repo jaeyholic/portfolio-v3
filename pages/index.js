@@ -4,17 +4,19 @@ import React from 'react';
 const Homepage = () => {
   return (
     <div className='sm:px-32'>
-      <div className='max-w-3xl sm:py-48'>
+      <div className='sm:grid sm:grid-cols-3 gap-10 sm:my-32 relative mx-auto'>
         <div>
           <h2 className='font-extrabold text-5xl leading-tight'>
-            Hey there, <br />
-            I'm Felix Yeboah - Jefferson.
+            <mark className='px-3 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-black'>
+              Felix
+            </mark>{' '}
+            Yeboah - Jefferson.
           </h2>
-          <p className='mt-6 text-2xl leading-8 font-light'>
-            A self-taught full-stack javascript web developer & a design-minded,
-            focused on building beautiful interfaces & experiences👨‍💻. My inbox
-            is always open for any opportunities, whether for a potential
-            project or just to say hi, I'll try my best to answer your email!
+          <p className='mt-6 text-xl leading-8 font-light dark:text-gray-400'>
+            A self-taught Software Developer & Design-Minded, focused on
+            building beautiful interfaces & experiences👨‍💻. My inbox is always
+            open for any opportunities, whether for a potential project or just
+            to say hi, I'll try my best to answer your email!
           </p>
 
           <div className='mt-12'>
@@ -39,6 +41,37 @@ const Homepage = () => {
               My inbox is open
             </a>
           </div>
+        </div>
+
+        <div className='sm:ml-20'>
+          <img className='rounded-xl shadow-lg' src='/myself.jpg' />
+        </div>
+
+        <div className='absolute bottom-10 right-32'>
+          <a
+            href='https://github.com/jaeyholic/'
+            className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
+          >
+            Github
+          </a>
+          <a
+            href='https://www.linkedin.com/in/felixyeboahjefferson/'
+            className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
+          >
+            LinkedIn
+          </a>
+          <a
+            href='https://twitter.com/jaeyholic'
+            className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
+          >
+            Twitter
+          </a>
+          <a
+            href='https://www.instagram.com/jaeyholic/'
+            className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
+          >
+            Instagram
+          </a>
         </div>
       </div>
 

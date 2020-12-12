@@ -43,7 +43,7 @@ class MyDocument extends Document {
             name='google-site-verification'
           />
         </Head>
-        <body className='bg-white  text-trueGray-800 dark:bg-blueGray-800 dark:text-gray-200'>
+        <body>
           <Main />
           <NextScript />
         </body>
