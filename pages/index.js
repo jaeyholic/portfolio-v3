@@ -3,9 +3,9 @@ import React from 'react';
 
 const Homepage = () => {
   return (
-    <div className='sm:px-32'>
-      <div className='sm:grid sm:grid-cols-3 gap-10 sm:my-32 relative mx-auto'>
-        <div>
+    <div className='sm:px-32 px-4 overflow-hidden'>
+      <div className='flex flex-col sm:grid sm:grid-cols-3 sm:gap-10 sm:my-32 relative mx-auto mt-10 sm:mt-0'>
+        <div className='order-2 sm:order-1 mt-10 sm:mt-0'>
           <h2 className='font-extrabold text-5xl leading-tight'>
             <mark className='px-3 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-black'>
               Felix
@@ -43,11 +43,11 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='sm:ml-20'>
+        <div className='sm:ml-20 order-1 sm:order-2'>
           <img className='rounded-xl shadow-lg' src='/myself.jpg' />
         </div>
 
-        <div className='absolute bottom-10 right-32'>
+        <div className='hidden sm:block sm:absolute sm:bottom-10 sm:right-32'>
           <a
             href='https://github.com/jaeyholic/'
             className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
@@ -75,7 +75,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className='my-24'>
+      <div className='my-40 sm:my-24 px-2 sm:px-0'>
         <h2 className='font-black text-4xl mb-10'>My Projects </h2>
         <ProjectList />
       </div>

@@ -6,11 +6,11 @@ import useDarkMode from 'hooks/useTheme';
 const Header = () => {
   const { colorMode, setTheme } = useDarkMode();
   return (
-    <header className='flex items-center justify-between sm:px-32 py-10'>
+    <header className='sm:flex items-center justify-between px-5 sm:px-32 py-10'>
       <Link href='/' passHref>
-        <h2 className='font-extrabold text-3xl md:text-4xl'>Jeffson</h2>
+        <a className='font-extrabold text-3xl md:text-4xl'>Jeffson</a>
       </Link>
-      <nav className='ml-20'>
+      <nav className='sm:ml-20 mt-4 sm:mt-0'>
         <ul className='flex justify-between text-center text-2xl font-light'>
           <li className='sm:px-8'>
             <Link href='/writings' passHref>

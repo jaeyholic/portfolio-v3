@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div className={`antialiased ${colorMode}`}>
-      <div className='md:max-w-full font-sans bg-white  text-trueGray-800 dark:bg-black dark:text-gray-200 transition duration-300 ease-in-out'>
+      <div className='w-full sm:max-w-full font-sans bg-white  text-trueGray-800 dark:bg-black dark:text-gray-200 transition duration-300 ease-in-out overflow-hidden'>
         <Header />
         <Component {...pageProps} />
         <Footer />
