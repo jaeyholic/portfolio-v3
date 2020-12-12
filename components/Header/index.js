@@ -26,7 +26,7 @@ const Header = () => {
             className='sm:px-8 transition duration-200 ease-in'
             onClick={() => setTheme(colorMode)}
           >
-            {colorMode === 'dark' ? (
+            {colorMode === 'light' ? (
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
