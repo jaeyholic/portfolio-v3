@@ -49,24 +49,28 @@ const Homepage = () => {
 
         <div className='hidden sm:block sm:absolute sm:bottom-10 sm:right-32'>
           <a
+            target='_blank'
             href='https://github.com/jaeyholic/'
             className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
           >
             Github
           </a>
           <a
+            target='_blank'
             href='https://www.linkedin.com/in/felixyeboahjefferson/'
             className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
           >
             LinkedIn
           </a>
           <a
+            target='_blank'
             href='https://twitter.com/jaeyholic'
             className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
           >
             Twitter
           </a>
           <a
+            target='_blank'
             href='https://www.instagram.com/jaeyholic/'
             className='block text-4xl font-black py-4 transform hover:scale-125 origin-left transition duration-200 ease-in'
           >
