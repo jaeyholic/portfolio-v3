@@ -24,10 +24,22 @@ module.exports = {
         trueGray: colors.trueGray,
         warmGray: colors.warmGray,
       },
+      typography: (theme) => ({
+        dark: {
+          css: {
+            color: theme('colors.white'),
+            h4: {
+              color: theme('colors.gray.200'),
+            },
+          },
+        },
+      }),
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      typography: ['responsive', 'dark'],
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 };
