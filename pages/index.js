@@ -4,8 +4,8 @@ import React from 'react';
 const Homepage = () => {
   return (
     <div className='sm:px-32 px-4 overflow-hidden'>
-      <div className='flex flex-col sm:grid sm:grid-cols-3 sm:gap-10 sm:my-32 relative mx-auto mt-10 sm:mt-0'>
-        <div className='order-2 sm:order-1 mt-10 sm:mt-0'>
+      <div className='flex flex-col sm:grid sm:grid-cols-3 sm:gap-10 pt-10 sm:pt-0 sm:my-32 relative mx-auto'>
+        <div className='order-2 sm:order-1 pt-10 sm:pt-0'>
           <h2 className='font-extrabold text-5xl leading-tight'>
             <mark className='px-3 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-black'>
               Felix
@@ -29,7 +29,7 @@ const Homepage = () => {
                 fill='none'
                 viewBox='0 0 24 24'
                 stroke='currentColor'
-                className='w-5 h-5 sm:mr-2'
+                className='w-5 h-5 mr-2'
               >
                 <path
                   strokeLinecap='round'
@@ -43,7 +43,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='sm:ml-20 order-1 sm:order-2'>
+        <div className='sm:ml-20 order-1 sm:order-2 ring-2 dark:ring-offset-black ring-offset-white dark:ring-white ring-black ring-offset-8 rounded-xl'>
           <img className='rounded-xl shadow-lg' src='/myself.jpg' />
         </div>
 

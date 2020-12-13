@@ -90,7 +90,7 @@ const Footer = () => {
             href='https://github.com/jaeyholic/portfolio-v3'
             className='flex items-center bg-trueGray-800 dark:bg-white px-12 py-3 w-64 text-white dark:text-trueGray-800 font-semibold focus:outline-none rounded-md focus:ring-2 focus:ring-offset-white dark:focus:ring-offset-trueGray-800 focus:ring-trueGray-800 dark:focus:ring-white focus:ring-offset-4 transition duration-200 ease-out order-1 sm:order-2'
           >
-            <FaGithub className='sm:mr-4' />
+            <FaGithub className='mr-4' />
             View on Github
           </a>
         </div>
