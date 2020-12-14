@@ -4,43 +4,50 @@
       "id": "Albert Essamuah Associates Limited (AEA)",
       "img": "eae.jpg",
       "name": "Albert Essamuah Associates Limited (AEA)",
-      "excerpt": "A firm of Architects practicing Built Environment Consultancy with the capacity..."
+      "excerpt": "A firm of Architects practicing Built Environment Consultancy with the capacity...",
+      "link": "https://eae.vercel.app/"
     },
     {
       "id": "Ntetsia",
       "img": "ntetsia.png",
       "name": "Ntetsia",
-      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora..."
+      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora...",
+      "link": "https://ntetsia.vercel.app"
     },
     {
       "id": "Xparf",
       "img": "xparf.png",
       "name": "Xparf",
-      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora?"
+      "excerpt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, tempora?",
+      "link": "https://xparf.vercel.app"
     },
     {
       "id": "Complete Farmer",
       "img": "complete-farmer.jpg",
       "name": "Complete Farmer",
-      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies"
+      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies",
+      "link": "https://completfarmer.com"
     },
     {
       "id": "Digital Farmer Dashboard",
       "img": "dashboard.jpg",
       "name": "Digital Farmer Dashboard",
-      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies"
+      "excerpt": "To build an innovative farming platform that connects stakeholders by employing disruptive technologies",
+      "link": "https://crowd.completefarmer.com"
     },
     {
       "id": "Number 12 Film",
       "img": "number12.jpg",
       "name": "Number 12 Film",
-      "excerpt": "The Number 12 Film is a project built for a client to showcase their biggest projects worked on."
+      "excerpt": "The Number 12 Film is a project built for a client to showcase their biggest projects worked on.",
+      "link": "https://number12film.com"
     },
     {
       "id": "Teach For Joy",
       "img": "teachforjoy.jpg",
       "name": "Teach For Joy",
-      "excerpt": "It's a platform where people meet tutors who are willing to teach on their free time for free."
+      "excerpt": "It's a platform where people meet tutors who are willing to teach on their free time for free.",
+      "link": "https://teachforjoy.com"
     }
   ]
 }

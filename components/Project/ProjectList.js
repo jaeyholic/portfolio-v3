@@ -11,7 +11,7 @@ const ProjectList = () => {
           title={item.name}
           description={item.excerpt}
           image={`/projects/${item.img}`}
-          link={`/project/${item.id}`}
+          link={item.link}
         />
       ))}
     </div>
