@@ -1,13 +1,40 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { imageBuilder } from 'lib/sanity';
 import { getAllPostsWithSlug, getPostAndMorePosts } from 'lib/api';
 import BlockContent from '@sanity/block-content-to-react';
+import { NextSeo } from 'next-seo';
 
 const Writings = ({ post, morePosts, preview }) => {
+  const image = imageBuilder.image(post?.coverImage).url();
   const router = useRouter();
 
   return (
     <div className='relative py-16 overflow-hidden'>
+      <NextSeo
+        title={post?.title}
+        description={post?.excerpt}
+        canonical='https://www.canonical.ie/'
+        openGraph={{
+          url: 'https://jeffson.dev',
+          title: post?.title,
+          description: post?.excerpt,
+          images: [
+            {
+              url: image,
+              width: 800,
+              height: 600,
+              alt: 'Og Image Alt',
+            },
+          ],
+          site_name: 'SiteName',
+        }}
+        twitter={{
+          handle: '@jaeyholic',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className='hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full'>
         <div className='relative h-full text-lg max-w-prose mx-auto'>
           <svg

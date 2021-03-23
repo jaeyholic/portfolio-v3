@@ -1,10 +1,36 @@
 import React from 'react';
 import { getAllPostsForHome } from 'lib/api';
 import BlogCard from '@components/Card/BlogCard';
+import { NextSeo } from 'next-seo';
 
 const writings = ({ allPosts }) => {
   return (
     <div className='relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8'>
+      <NextSeo
+        title='My Writings'
+        description='I unpack all my knowledge and everything i have picked up as a developer here.'
+        canonical='https://www.canonical.ie/'
+        openGraph={{
+          url: 'https://jeffson.dev',
+          title: 'My Writings',
+          description:
+            'I unpack all my knowledge and everything i have picked up as a developer here.',
+          images: [
+            {
+              url: 'https://i.imgur.com/UkwQLRf.jpg',
+              width: 800,
+              height: 600,
+              alt: 'Og Image Alt',
+            },
+          ],
+          site_name: 'SiteName',
+        }}
+        twitter={{
+          handle: '@jaeyholic',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className='absolute inset-0'>
         <div className='h-1/3 sm:h-2/3'></div>
       </div>

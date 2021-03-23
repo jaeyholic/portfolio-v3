@@ -1,9 +1,36 @@
 import ProjectList from '@components/Project/ProjectList';
 import React from 'react';
+import { NextSeo } from 'next-seo';
 
 const Homepage = () => {
   return (
     <div className='sm:px-32 px-4 overflow-hidden'>
+      <NextSeo
+        title='Felix Yeboah - Jefferson'
+        description='A self-taught Software Developer & Design-Minded, focused on building beautiful interfaces & experiences.'
+        canonical='https://www.canonical.ie/'
+        openGraph={{
+          url: 'https://jeffson.dev',
+          title: 'Felix Yeboah - Jefferson',
+          description:
+            'A self-taught Software Developer & Design-Minded, focused on building beautiful interfaces & experiences.',
+          images: [
+            {
+              url: 'https://jeffson.vercel.app/myself.jpg',
+              width: 800,
+              height: 600,
+              alt: 'Og Image Alt',
+            },
+          ],
+          site_name: 'SiteName',
+        }}
+        twitter={{
+          handle: '@jaeyholic',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+      />
+
       <div className='flex flex-col sm:grid sm:grid-cols-3 sm:gap-10 pt-10 sm:pt-0 sm:my-32 relative mx-auto'>
         <div className='order-2 sm:order-1 pt-10 sm:pt-0'>
           <h2 className='font-extrabold text-5xl leading-tight'>
@@ -78,7 +105,6 @@ const Homepage = () => {
           </a>
         </div>
       </div>
-
       <div className='my-40 sm:my-24 px-2 sm:px-0'>
         <h2 className='font-black text-4xl mb-10'>My Projects </h2>
         <ProjectList />
